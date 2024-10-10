@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Individuellinlämning - Kassasystem 2.0", "Individuellinlämning - Kassasystem 2.0\Individuellinlämning - Kassasystem 2.0.csproj", "{3476FAAC-C3AD-48E4-83D9-4F124F80FE4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3476FAAC-C3AD-48E4-83D9-4F124F80FE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3476FAAC-C3AD-48E4-83D9-4F124F80FE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3476FAAC-C3AD-48E4-83D9-4F124F80FE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3476FAAC-C3AD-48E4-83D9-4F124F80FE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C9A8CF8-8A1E-452D-AFA1-4C5C244BE7DF}
+	EndGlobalSection
+EndGlobal
