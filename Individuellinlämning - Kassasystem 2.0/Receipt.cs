@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -36,6 +37,7 @@ namespace Individuellinlämning___Kassasystem_2._0
         }
         public static void PrintReceipt()
         {
+            
             var filePath = $"../../../File/#{ReceiptList.First().ReceiptId}-reacipt-{ReceiptDay}.txt";
 
             using (StreamWriter writeReceipt = new StreamWriter(filePath, append: true))

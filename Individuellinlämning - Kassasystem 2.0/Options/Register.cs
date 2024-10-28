@@ -53,7 +53,6 @@ namespace Individuellinlämning___Kassasystem_2._0.Options
                         Console.ReadKey();
 
                         break;
-
                     }
 
                     Console.SetCursorPosition(0, Console.CursorTop - 2);
