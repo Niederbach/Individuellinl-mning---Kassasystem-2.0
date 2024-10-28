@@ -38,7 +38,7 @@ namespace Individuellinlämning___Kassasystem_2._0
         public static void PrintReceipt()
         {
             
-            var filePath = $"../../../File/#{ReceiptList.First().ReceiptId}-reacipt-{ReceiptDay}.txt";
+            var filePath = $"../../../SaveReceipt/#{ReceiptList.First().ReceiptId}-reacipt-{ReceiptDay}.txt";
 
             using (StreamWriter writeReceipt = new StreamWriter(filePath, append: true))
             {
