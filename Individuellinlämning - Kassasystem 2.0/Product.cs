@@ -78,7 +78,7 @@ namespace Individuellinlämning___Kassasystem_2._0
                     {
                         unit = Math.Floor(unit);
 
-                        if (unit >= 0)
+                        if (unit <= 0)
                         {
                             unit = 1;
                         }

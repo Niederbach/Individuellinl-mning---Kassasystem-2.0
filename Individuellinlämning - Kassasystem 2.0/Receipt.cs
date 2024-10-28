@@ -38,10 +38,11 @@ namespace Individuellinlämning___Kassasystem_2._0
         public static void PrintReceipt()
         {
             
-            var filePath = $"../../../SaveReceipt/#{ReceiptList.First().ReceiptId}-reacipt-{ReceiptDay}.txt";
+            var filePath = $"../../../SaveReceipt/RECEIPT_{ReceiptDay}.txt";
 
             using (StreamWriter writeReceipt = new StreamWriter(filePath, append: true))
             {
+             
                 writeReceipt.WriteLine($"KVITTO ID: {ReceiptList.First().ReceiptId}");
                 writeReceipt.WriteLine(ReceiptDay);
                 writeReceipt.WriteLine("-----------");
@@ -61,7 +62,8 @@ namespace Individuellinlämning___Kassasystem_2._0
                 }
 
                 writeReceipt.WriteLine("-----------");
-                writeReceipt.WriteLine($"Totala priset: {sum} kr");
+                writeReceipt.WriteLine($"Totala priset: {sum} kr\n");
+                writeReceipt.WriteLine("########################\n");
             }
 
             using (StreamReader readReceipt = new StreamReader(filePath))

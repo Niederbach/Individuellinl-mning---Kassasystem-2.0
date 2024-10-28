@@ -22,6 +22,7 @@ namespace Individuellinlämning___Kassasystem_2._0.Options
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Kassasystem - Kassa");
             Console.ResetColor();
+            Console.WriteLine("(Skriv PAY för att betala)");
             Console.WriteLine("-------------------");
 
             foreach (Product product in Product.ProductList)
@@ -45,7 +46,7 @@ namespace Individuellinlämning___Kassasystem_2._0.Options
 
                     inputArray[0] = inputArray[0].ToLower();
 
-                    if (inputArray[0] == "betala")
+                    if (inputArray[0] == "pay")
                     {
                         Console.Clear();
                         Receipt.PrintReceipt();
